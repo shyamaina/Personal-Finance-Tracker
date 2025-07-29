@@ -1,0 +1,17 @@
+# Global ignores
+node_modules/
+.env
+dist/
+build/
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+
+# Ignore backend dependencies
+/backend/node_modules/
+/backend/.env
+
+# Ignore frontend dependencies
+/frontend/node_modules/
+/frontend/.env
